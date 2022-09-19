@@ -11,7 +11,7 @@ func init() {
     rand.Seed(time.Now().UnixNano())
 }
 
-fun Hellos(names []string) (map([string]string),error) {
+func Hellos(names []string) (map([string]string),error) {
     messages := make(map[string]string)
 
     for _, name := range names {
